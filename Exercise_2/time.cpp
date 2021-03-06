@@ -2,7 +2,7 @@
 #include<string>
 using namespace std;
 class time{
-public :
+private :
   int hours=0,minutes=0,seconds=0;
 public:
   void displaytime();
