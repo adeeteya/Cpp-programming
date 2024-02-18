@@ -3,6 +3,7 @@
 using namespace std;
 static int noofbus,n=0,choice;
 int menu();
+
 class time{
 public:
   int minutes,hours;
@@ -11,6 +12,7 @@ public:
   void entertime();
   void displaytime();
 };
+
 void time::entertime(){
   string temp;
   cout<<"\n\n\t\tEnter time in HH:MM format(24-hour): ";
